@@ -20,7 +20,7 @@ const formatTime = (date: Date) => {
   return strTime;
 };
 
-function App() {
+const App = () => {
   const [colorPalettes, setColorPalettes] = useState<Palette[]>([]);
   const [updatedAt, setUpdatedAt] = useState<string | null>();
 
@@ -88,6 +88,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
